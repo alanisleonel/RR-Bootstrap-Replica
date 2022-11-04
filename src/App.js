@@ -1,8 +1,12 @@
 import './App.css';
+import Nav from 'react-bootstrap/Nav'
+
+import TopBar from './components/TopBar';
 
 function App() {
   return (
     <div className="App">
+      <TopBar/>
       <h1>Hello World</h1>
     </div>
   );
